@@ -1,0 +1,68 @@
+$heigth: 8vh;
+
+.container {
+    background-color: var(--secondary-color);
+    color: var(--secondary-text-color);
+    height: $heigth;
+    width: 90%;
+    padding: 10px;
+    min-height: $heigth;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    text-decoration: none;
+
+    &:hover {
+        background-color: var(--on-hover-color);
+    }
+}
+
+.avatar {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    margin: none;
+    padding: none;
+    width: 100%;
+    height: fit-content;
+}
+
+.time {
+    font-size: 0.8rem;
+    color: var(--text-color);
+    border: none;
+    margin: none;
+    padding: none;
+    margin-top: 25px;
+}
+
+.name {
+    color: var(--text-color);
+}
+
+.infoHeader {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    margin: none;
+    padding: none;
+    height: 4vh;
+}
+
+.message {
+    color: var(--secondary-text-color);
+    font-size: 0.9rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 90%;
+    margin-bottom: 20px;
+}

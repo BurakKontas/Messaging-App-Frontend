@@ -1,0 +1,91 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #444;
+    color: var(--text-color);
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    padding: 20px 50px;
+    width: 20vw;
+    border-radius: 25px;
+}
+
+.credidentals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    input {
+        width: 100%;
+        margin: 0px 10px;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: #555;
+        color: var(--text-color);
+        outline: none;
+    }
+
+    h3 {
+        align-self: start;
+        margin: 10px -8px;
+    }
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rememberMe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonsHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttonsLogin {
+    margin-top: 15px;
+    background-color: var(--secondary-color);
+    padding: 10px 0px;
+    width: 21vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--text-color)
+}
+
+.link {
+    color: pink;
+    text-decoration: none;
+}
+
+.loginText {
+    align-self: center;
+}
+
+.buttonsRegister {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

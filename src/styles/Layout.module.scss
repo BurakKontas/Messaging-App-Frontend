@@ -1,0 +1,28 @@
+.container {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    background-color: var(--secondary-color);
+    width: 400px;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 0px 15px;
+    margin: 15px 1.5px 0px 15px;
+    border-top-left-radius: 10px;
+}
+
+.content {
+    background-color: var(--secondary-color);
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px 0px 0px;
+}
